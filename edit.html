@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>Edit Metric wireframe</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="edit.css">
+  </head>
+
+  <body>
+    <main role="main">
+      <header role="banner">
+        <h1>Update Metric</h1>
+        <p>(Form will auto-populated with existing data for specific metric)</p>
+      </header>
+    <form class='add-metric-form'>
+        <div>
+            <label for="metric">Metric</label>
+            <input placeholder="What's the metric?" type="text" name='metric' id='metric' />
+        </div>
+        <div>
+            <label for="who">Who?</label>
+            <input type="text" name='who' id='who' placeholder="Whose metric is it?" />
+        </div>
+        <div>
+            <label for="date-created">Date Created</label>
+            <input type="date" name='date-created' id='date-created' />
+        </div>
+        <div>
+            <label for="type">Metric Type</label>
+            <input type="text" name='type' id='type' placeholder='Greater, Less, Window, etc.'/>
+        </div>
+        <br>
+        <button>Update</button>
+        <button>Cancel</button>
+    </form>
+    </main>
+  </body>
+
+</html>
